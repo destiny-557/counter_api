@@ -3,16 +3,15 @@ import countapi from 'countapi-js';
 
 
 countapi.visits().then((result) => {
-  alert(result.value);
+  alert('This button has been clicked '+(result.value)+' times!');
 });
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <button>Current Hits Count</button>
+        <button></button>
       </header>
-      <p id="visits">... </p>
     </div>
     
   );
