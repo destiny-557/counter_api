@@ -3,7 +3,7 @@ import countapi from 'countapi-js';
 
 
 countapi.visits().then((result) => {
-  console.log(result.value);
+  alert(result.value);
 });
 
 function App() {
