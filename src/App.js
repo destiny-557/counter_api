@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <button></button>
+        <button onClick={getCountApi}>Check Current Hits Count</button>
       </header>
     </div>
     
